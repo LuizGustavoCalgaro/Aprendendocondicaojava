@@ -1,9 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
-        int idadePessoa = 18;
-        String nomePessoa = "Luiz"
-
+        Integer idadePessoa = 18;
+        String nomePessoa = "Luiz";
         /*
          * Operadores Logicos
          * > maior
@@ -14,10 +13,11 @@ public class Main {
          *
          */
 
-        if (nomePessoa > 20) ;
+        if (idadePessoa > 17){
         System.out.println("é maior que 17");
-    }else{
+        }else {
         System.out.println("Não é maior");
 
+         }
+        }
     }
-}
